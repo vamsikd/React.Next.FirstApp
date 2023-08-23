@@ -1,0 +1,1 @@
+# React app developed without using create-next-app 

@@ -1,15 +1,13 @@
-import type { ReactNode } from "react"
+import type { ReactNode } from "react";
 
 type RootLayoutProps = {
-    children: ReactNode
-}
+  children: ReactNode;
+};
 
-export default function RootLayout({children}:RootLayoutProps){
-    return (
-        <html>
-            <body>
-                {children}
-            </body>
-        </html>
-    )
+export default function RootLayout({ children }: RootLayoutProps) {
+  return (
+    <html>
+      <body>{children}</body>
+    </html>
+  );
 }
